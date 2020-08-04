@@ -26,7 +26,7 @@ h3 {
 
 .group {
     display: flex; 
-    flex-direction: row; 
+    flex-direction: column; 
 }
 
 .item {
@@ -40,4 +40,14 @@ h3 {
 
 .item-triple {
     flex: 3;
+}
+
+/* Groups & Items (Desktop) */
+
+@media all and (min-width: 800px) {
+
+    .group {
+        flex-direction: row;
+    }
+
 }
