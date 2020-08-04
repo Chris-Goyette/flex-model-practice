@@ -22,6 +22,10 @@ h3 {
     border-bottom: 1px solid lightgrey;
 }
 
+img {
+    width: 100%;
+}
+
 /* Groups & Items */
 
 .group {
@@ -40,6 +44,13 @@ h3 {
 
 .item-triple {
     flex: 3;
+}
+
+/* Section Background Color */
+
+.bg-callout {
+    padding: 60px 0px;
+    background-color: darkgray;
 }
 
 /* Groups & Items (Desktop) */
